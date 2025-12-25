@@ -41,7 +41,7 @@
 
 ```powershell
 docker compose up -d --build
-
+```
 Для тестирования проекта в браузере зайдите на:
 ```bash
 http://localhost:8080/
