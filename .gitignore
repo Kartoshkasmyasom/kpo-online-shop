@@ -1,0 +1,39 @@
+# --- DB data (local volume) ---
+db-data/
+*.sqlite
+*.db
+
+# --- Go build artifacts ---
+**/bin/
+**/dist/
+**/*.exe
+**/*.exe~
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.test
+**/*.out
+
+# --- Go workspace / tooling ---
+**/go.work
+**/go.work.sum
+
+# --- Logs ---
+*.log
+
+# --- Env / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- Node (if ever) ---
+node_modules/
